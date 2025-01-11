@@ -1,0 +1,74 @@
+/* Stile generale */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Manteniamo uno sfondo neutro */
+  color: #333;
+}
+
+header {
+  background-color: #ff4b4b; /* Rosso del tuo brand */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff8dc; /* Giallo chiaro per il contrasto */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #0044cc; /* Blu per i testi */
+}
+
+input, select, button {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff4b4b; /* Rosso per il pulsante */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000; /* Rosso più scuro per il passaggio del mouse */
+}
+
+#results {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#calories-output {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0044cc; /* Blu per evidenziare i risultati */
+}
+
+/* Stile per il logo del brand */
+.logo {
+  display: block;
+  margin: 0 auto 10px auto; /* Centra il logo e aggiunge spazio sotto */
+  max-width: 150px; /* Limita la larghezza del logo */
+  height: auto; /* Mantiene le proporzioni */
+}
+
