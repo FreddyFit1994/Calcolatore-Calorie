@@ -64,11 +64,5 @@ button:hover {
   color: #0044cc; /* Blu per evidenziare i risultati */
 }
 
-/* Stile per il logo del brand */
-.logo {
-  display: block;
-  margin: 0 auto 10px auto; /* Centra il logo e aggiunge spazio sotto */
-  max-width: 150px; /* Limita la larghezza del logo */
-  height: auto; /* Mantiene le proporzioni */
-}
+
 
